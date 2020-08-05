@@ -4,7 +4,7 @@
     width: 30%;
     border: 3px solid green;
     padding: 50px;
-    top: 150px;
+    top: 100px;
     line-height: 1.5rem;
 }
 
@@ -42,3 +42,11 @@ footer {
   text-align:center; 
   background-color: cornflowerblue;
  }
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+

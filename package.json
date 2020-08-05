@@ -1,0 +1,19 @@
+{
+  "name": "login-signup",
+  "version": "1.0.0",
+  "description": "project that allows you to register and if you are already registered you can sign in using your credientials",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshhx/login-signup.git"
+  },
+  "author": "Harsh Gupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harshhx/login-signup/issues"
+  },
+  "homepage": "https://github.com/harshhx/login-signup#readme"
+}

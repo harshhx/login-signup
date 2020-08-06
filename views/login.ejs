@@ -1,15 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="css/styles.css">
+<%- include("partials/header") %>
     <title>login</title>
 </head>
 <body>
 
     <div class="main-div">
-        <h1>LOGIN</h1>
+        <h1 class="main-heading" >LOGIN</h1>
 
-        <p style="margin-top: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, atque!</p>
+        <p style="margin-top: 20px;">If you are registered with us login with your credentials. If you are not registered please register first</p>
 
 
      <form action="/login" method="POST">
@@ -39,7 +36,4 @@
      
     </div>
 
-    <footer>Lorem ipsum dolor sit amet.</footer>
-    
-</body>
-</html>
+    <%- include('partials/footer') %>

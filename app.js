@@ -51,7 +51,9 @@ app.get("/afterLogin" , function(req,res){
 
 app.get("/afterRegister" , function(req,res){
     res.render("afterRegister")
-})
+});
+
+
 
 app.post("/register" , function(req,res){
    const  username = req.body.username ; 

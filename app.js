@@ -18,7 +18,7 @@ app.use(bodyParser.urlencoded({
 
 // setting up database
 
-mongoose.connect("mongodb://localhost:27017/loginDB", {
+mongoose.connect("mongodb+srv://admin-harsh:123@cluster0.dltrl.mongodb.net/loginDB?retryWrites=true&w=majority", {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
